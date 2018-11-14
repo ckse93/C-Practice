@@ -1,0 +1,16 @@
+#+title: C practice
+#+options: toc:nil num:nil
+*** C practice from very simple beginner stuffs to intermediate stuffs 
+
+** How to compile and run 
+- 1. download the .c file, .h file and corrosponding .c file(if any) in the same folder.
+- 2. go to that folder by typing command (see example) on terminal or just simply right-clicking in that folder and choose "open in terminal"
+- 2-1. example, when downloaded files are in /user/download: ~cd user/download~
+- 3. Let's say you downloaded "compileMe.c" file. Compile that file by typing : ~gcc compileMe.c~
+- 4. Now, you will see "a.out" file has been created. You can execute that file by typing ~./a.out~ "./"means "current directory"
+- 5. You can name your own executable file too just by adding some option in gcc like, ~gcc -o executeMe compileMe.c~. Where executeMe is the executable file name
+- 6. You can run that file by typing ~./executeMe~ 
+
+** Change/update log : 
+  11-13-2018 : Repository generated 
+  11-13-2018 : stdin_stdout.c uploaded. 
